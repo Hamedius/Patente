@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-gray-200 text-gray-900; /* پس‌زمینه کلی خاکستری‌تر */
+  font-family: Vazirmatn, system-ui, sans-serif;
+}
+
+/* هایلایت آبی برای واژه‌های ایتالیایی */
+.hl-it {
+  font-weight: 600;
+  color: #0070f3;
+}
